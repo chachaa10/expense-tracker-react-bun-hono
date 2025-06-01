@@ -1,0 +1,19 @@
+{
+    "name": "expense-tracker-react-bun-hono",
+    "module": "./backend/index.ts",
+    "type": "module",
+    "private": true,
+    "scripts": {
+        "start": "bun run ./backend/index.ts",
+        "dev": "bun --watch ./backend/index.ts"
+    },
+    "devDependencies": {
+        "@types/bun": "latest"
+    },
+    "peerDependencies": {
+        "typescript": "^5.8.3"
+    },
+    "dependencies": {
+        "hono": "^4.7.11"
+    }
+}
